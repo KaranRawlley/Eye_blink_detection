@@ -1,4 +1,4 @@
-#Eye blink detection
+# Eye blink detection
    ## using openCV, Python, dlib
 
 #### We'll use a metric called eye aspect ratio(EAR) for eye blink detection
