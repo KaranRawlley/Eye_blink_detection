@@ -70,7 +70,8 @@ while True:
                 total += 1
                 print(total)
                 counter = 0
-
+        cv2.putText(frame, "Blinks: {}".format(total), (10, 30),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+        cv2.putText(frame, "EAR: {:.2f}".format(ear), (300, 30),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
     cv2.imshow('Capturing', frame)
     k = cv2.waitKey(1)
     if k == ord('q'):
