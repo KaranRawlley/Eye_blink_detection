@@ -27,7 +27,7 @@ counter = 0
 total = 0
 
 # dlib's face detector
-detector = dlib.get_frontal_face_detector()\
+detector = dlib.get_frontal_face_detector()
     # dlib's facial landmarks detector
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
